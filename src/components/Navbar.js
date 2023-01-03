@@ -19,7 +19,7 @@ export default function Navbar() {
                     <a href="#" className="mr-5 hover:text-white">
                         I miei servizi
                     </a>
-                    <a href="#" className="mr-5 hover:text-white">
+                    <a href="https://tally.so/r/mJ9027" className="mr-5 hover:text-white">
                         Richiedi una diagnosi gratuita
                     </a>
                 </nav>
