@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://mattiapitossi.github.io/portfolio_francesco",
+  "homepage": "https://www.francescomagagna.com",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^1.0.6",
