@@ -19,7 +19,7 @@ export default function Calendar() {
                     </p>
                 </div>
                 
-                <InlineWidget className="overflow-hidden" url="https://calendly.com/mercuriogiuseppe/30min" />
+                <InlineWidget className="overflow-hidden" url="https://meetings-eu1.hubspot.com/francesco-magagna?troubleshoot=true" />
 
             </div>
         </section>

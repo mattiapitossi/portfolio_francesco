@@ -17,7 +17,7 @@ export default function App() {
       <About />
       <Goals />
       <LinkedIn />
-      {/* <Calendar /> */}
+      <Calendar />
       <Contact />
       <a
         href="https://wa.me/3465727999"
