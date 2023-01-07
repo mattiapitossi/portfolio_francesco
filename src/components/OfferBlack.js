@@ -1,10 +1,15 @@
 import React from "react";
+import { BadgeCheckIcon, BriefcaseIcon } from "@heroicons/react/solid";
 export default function OfferBlack() {
   return (
     <section className="bg-gray-100 py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">
-          La mia consulenza
+        <h2 className="text-3xl font-bold text-center mb-10">
+        <BriefcaseIcon className="w-10 inline-block mb-4 text-gray-500" />
+                    <h1 className="text-gray-600 title-font font-medium text-3xl sm:text-4xl mb-4">
+                    Come funziona la mia consulenza? Scegli il piano che fa più per te!
+                    </h1>
+    
         </h2>
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/3 px-4 mb-8">
@@ -17,7 +22,7 @@ export default function OfferBlack() {
                 <li>Chi ha un conto Fineco e non ha un consulente abbinato</li>
                 <li>
                   Chi ha aperto un conto Fineco e inserito il codice consulente
-                  RWO54980
+                  RW054980
                 </li>
               </ul>
               <div className="text-center mt-6">
@@ -40,7 +45,7 @@ export default function OfferBlack() {
                   Chi vuole iniziare un percorso d'investimento con un capitale
                   minimo di 20.000€
                 </li>
-                <li>(NB: per gli under30 il conto è sempre a canone 0)</li>
+                <li>(NB: per gli under30 il conto è sempre a canone zero)</li>
               </ul>
               <div className="text-center mt-6">
                 <p className="text-center mb-3 text-white">Servizi offerti:</p>
@@ -69,7 +74,7 @@ export default function OfferBlack() {
                   Chi ha un portafoglio d'investimento con un capitale minimo di
                   100.000€
                 </li>
-                <li>(NB: per gli under30 il conto è sempre a canone 0)</li>
+                <li>(NB: per gli under30 il conto è sempre a canone zero)</li>
               </ul>
               <div className="text-center mt-6">
                 <p className="text-center mb-3 text-white">Servizi offerti:</p>
@@ -84,6 +89,34 @@ export default function OfferBlack() {
           </div>
         </div>
       </div>
+
+      {/* <div className="container mx-auto px-4">
+        <div className="flex flex-wrap -mx-4">
+          <div className="w-full px-4 mb-8">
+            <div className="bg-gray-800 shadow-lg rounded-lg p-6">
+              <h3 className="text-2xl font-bold text-center mb-6 text-white">
+                Trasferimento fondi
+              </h3>
+              <p className="text-center mb-6 text-white">Pensato per:</p>
+              <ul className="list-inside list-disc text-center text-white">
+                <li>Chi ha un conto Fineco e non ha un consulente abbinato</li>
+                <li>
+                  Chi ha aperto un conto Fineco e inserito il codice consulente
+                  RW054980
+                </li>
+              </ul>
+              <div className="text-center mt-6">
+                <p className="text-center mb-3 text-white">Servizi offerti:</p>
+                <ul className="list-inside list-disc text-center text-white">
+                  <li>Consulenza di base.</li>
+                  <li>Assistenza via e-mail e Whatsapp.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
     </section>
   );
 }
