@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import LinkedIn from "./components/LinkedIn";
 import Goals from "./components/Goals";
 import Calendar from "./components/Calendar";
+import OfferBlack from "./components/OfferBlack";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Navbar />
       <About />
       <Goals />
+      <OfferBlack />
       <LinkedIn />
       <Calendar />
       <Contact />

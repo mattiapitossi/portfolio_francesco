@@ -36,8 +36,7 @@ export default function Navbar() {
         <a href="#" class="mr-5 hover:text-white">I miei servizi</a>
         {isDropdownOpen && (
           <div class="absolute right-0 w-48 mt-2 py-2 bg-gray-800 rounded-md shadow-xl">
-            <a href="#" class="block px-4 py-2 text-sm font-semibold hover:text-white">Servizi di investimento</a>
-            <a href="#" class="block px-4 py-2 text-sm font-semibold hover:text-white">Diagnosi investimenti</a>
+            <a href="#offer" class="block px-4 py-2 text-sm font-semibold hover:text-white">Servizi di investimento</a>
             <a href="#" class="block px-4 py-2 text-sm font-semibold hover:text-white">Pensione complementare</a>
             <a href="#" class="block px-4 py-2 text-sm font-semibold hover:text-white">Come iniziare a investire</a>
           </div>

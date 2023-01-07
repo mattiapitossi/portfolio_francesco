@@ -60,7 +60,7 @@ export const linkedin = [
         src: "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6988431585687531521",
         id: "6988431585687531521",
         width: 504,
-        height: 700
+        height: 1220
     }
 
 ]
