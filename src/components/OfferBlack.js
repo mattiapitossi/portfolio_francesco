@@ -1,6 +1,18 @@
 import React from "react";
 import { BadgeCheckIcon, BriefcaseIcon } from "@heroicons/react/solid";
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+
+const navigation = [
+  { name: "Product", href: "#" },
+  { name: "Features", href: "#" },
+  { name: "Marketplace", href: "#" },
+  { name: "Company", href: "#" },
+];
+
 export default function OfferBlack() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <section id="consultant" className="bg-gray-100 py-12">
       <div className="container mx-auto px-4">
@@ -12,7 +24,10 @@ export default function OfferBlack() {
         </h2>
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-gray-800 shadow-lg rounded-lg p-6" style={{ width: "100%", height: "100%" }}>
+            <div
+              className="bg-gray-800 shadow-lg rounded-lg p-6"
+              style={{ width: "100%", height: "100%" }}
+            >
               <div
                 className="bg-gray-800 shadow-lg rounded-lg p-6 half-color-before mb-6"
                 style={{ backgroundColor: "#6D7888" }}
@@ -43,7 +58,10 @@ export default function OfferBlack() {
             </div>
           </div>
           <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-gray-800 shadow-lg rounded-lg p-6" style={{ width: "100%", height: "100%" }}>
+            <div
+              className="bg-gray-800 shadow-lg rounded-lg p-6"
+              style={{ width: "100%", height: "100%" }}
+            >
               <div
                 className="bg-gray-800 shadow-lg rounded-lg p-6 half-color-before mb-6"
                 style={{ backgroundColor: "#BD861F" }}
@@ -81,7 +99,10 @@ export default function OfferBlack() {
             </div>
           </div>
           <div className="w-full md:w-1/3 px-4 mb-8">
-            <div className="bg-gray-800 shadow-lg rounded-lg p-6" style={{ width: "100%", height: "100%" }}>
+            <div
+              className="bg-gray-800 shadow-lg rounded-lg p-6"
+              style={{ width: "100%", height: "100%" }}
+            >
               <div
                 className="bg-gray-800 shadow-lg rounded-lg p-6 half-color-before mb-6"
                 style={{ backgroundColor: "#23405C" }}
@@ -116,32 +137,33 @@ export default function OfferBlack() {
         </div>
       </div>
 
-      {/* <div className="container mx-auto px-4">
-        <div className="flex flex-wrap -mx-4">
-          <div className="w-full px-4 mb-8">
-            <div className="bg-gray-800 shadow-lg rounded-lg p-6">
-              <h3 className="text-2xl font-bold text-center mb-6 text-white">
-                Trasferimento fondi
-              </h3>
-              <p className="text-center mb-6 text-white">Pensato per:</p>
-              <ul className="list-inside list-disc text-center text-white">
-                <li>Chi ha un conto Fineco e non ha un consulente abbinato</li>
-                <li>
-                  Chi ha aperto un conto Fineco e inserito il codice consulente
-                  RW054980
-                </li>
-              </ul>
-              <div className="text-center mt-6">
-                <p className="text-center mb-3 text-white">Servizi offerti:</p>
-                <ul className="list-inside list-disc text-center text-white">
-                  <li>Consulenza di base.</li>
-                  <li>Assistenza via e-mail e Whatsapp.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+      <div>
+        <h1 className="text-gray-600 title-font font-medium text-3xl tracking-tight sm:text-center sm:text-4xl mt-6">
+          Trasferimento Fondi
+        </h1>
+        <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
+          Il servizio che permette di trasferire in modo gratuito i tuoi fondi
+          da una banca al conto associato, e avvalersi del servizio di
+          consulenza che viene scontato con i rebates dei fondi.
+        </p>
+
+        <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center font-bold">
+          Commissioni di sottoscrizione dei fondi azzerate. 
+          <br></br>
+          Il conto corrente rimane gratuito investendo almeno 20.000 euro o con meno di 30 anni.
+        </p>
+        <div className="mt-8 flex gap-x-4 sm:justify-center">
+          <a
+            href="#contact"
+            className="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+          >
+            Richiedi{" "}
+            <span className="text-indigo-200" aria-hidden="true">
+              &rarr;
+            </span>
+          </a>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 }

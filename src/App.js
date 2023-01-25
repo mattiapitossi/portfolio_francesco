@@ -10,6 +10,7 @@ import LinkedIn from "./components/LinkedIn";
 import Goals from "./components/Goals";
 import Calendar from "./components/Calendar";
 import OfferBlack from "./components/OfferBlack";
+import Pension from "./components/Pension";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <About />
       <Goals />
       <OfferBlack />
+      {/* <Pension/> */}
       <LinkedIn />
       <Calendar />
       <Contact />
