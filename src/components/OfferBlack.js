@@ -137,20 +137,20 @@ export default function OfferBlack() {
         </div>
       </div>
 
-      <div>
+      <div className="container mx-auto px-4">
         <h1 className="text-gray-600 title-font font-medium text-3xl tracking-tight sm:text-center sm:text-4xl mt-6">
-          Trasferimento Fondi
+          Trasferimento Titoli e Fondi
         </h1>
         <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-          Il servizio che permette di trasferire in modo gratuito i tuoi fondi
-          da una banca al conto associato, e avvalersi del servizio di
-          consulenza che viene scontato con i rebates dei fondi.
+          Il servizio che ti permette di trasferire in modo gratuito i tuoi
+          titoli e fondi da un'altra banca al tuo conto.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center font-bold">
-          Commissioni di sottoscrizione dei fondi azzerate. 
+          Commissioni di sottoscrizione dei fondi azzerate.
           <br></br>
-          Il conto corrente rimane gratuito investendo almeno 20.000 euro o con meno di 30 anni.
+          Il conto corrente rimane gratuito investendo almeno 20.000 euro o con
+          meno di 30 anni.
         </p>
         <div className="mt-8 flex gap-x-4 sm:justify-center">
           <a
