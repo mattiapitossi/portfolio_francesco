@@ -11,6 +11,8 @@ import Goals from "./components/Goals";
 import Calendar from "./components/Calendar";
 import OfferBlack from "./components/OfferBlack";
 import Pension from "./components/Pension";
+import Pensionv2 from "./components/Pensionv2";
+import WhyInvest from "./components/WhyInvest";
 
 export default function App() {
   return (
@@ -19,7 +21,8 @@ export default function App() {
       <About />
       <Goals />
       <OfferBlack />
-      {/* <Pension/> */}
+      <Pensionv2/> 
+      {/* <WhyInvest/>  */}
       <LinkedIn />
       <Calendar />
       <Contact />
