@@ -22,7 +22,7 @@ export default function App() {
       <Goals />
       <OfferBlack />
       <Pensionv2/> 
-      {/* <WhyInvest/>  */}
+      <WhyInvest/> 
       <LinkedIn />
       <Calendar />
       <Contact />
