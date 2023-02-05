@@ -47,7 +47,7 @@ export default function Example() {
     <section id="whyinvest">
       <div className="bg-gray py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:text-center">
+          <div className="mx-auto max-w-2xl lg:text-center text-center">
             {/* <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Deploy faster</h2> */}
             {/* <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Pensione Complementare
@@ -79,20 +79,21 @@ export default function Example() {
           </div>
         </div>
 
-        <div className="container mx-auto px-4 mt-8">
-          <div className="mt-12 flex gap-x-4 sm:justify-center">
-            <a
-              href="#contact"
-              className="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
-            >
-              Contattami{" "}
-              <span className="text-indigo-200" aria-hidden="true">
-                &rarr;
-              </span>
-            </a>
+        <div className="container mx-auto px-4 text-center">
+            <div className="mt-8 gap-x-4 sm:justify-center">
+              <a
+                href="#contact"
+                className="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
+              >
+                Contattami{" "}
+                <span className="text-indigo-200" aria-hidden="true">
+                  &rarr;
+                </span>
+              </a>
+            </div>
           </div>
-        </div>
       </div>
+
     </section>
   );
 }

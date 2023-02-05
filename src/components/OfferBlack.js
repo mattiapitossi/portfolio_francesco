@@ -137,8 +137,8 @@ export default function OfferBlack() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4">
-        <h1 className="text-gray-600 title-font font-medium text-3xl tracking-tight sm:text-center sm:text-4xl mt-6">
+      <div className="container mx-auto px-4 text-center">
+        <h1 className="text-gray-600 title-font font-medium text-center text-3xl tracking-tight sm:text-center sm:text-4xl mt-6">
           Trasferimento Titoli e Fondi
         </h1>
         <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
@@ -152,7 +152,7 @@ export default function OfferBlack() {
           Il conto corrente rimane gratuito investendo almeno 20.000 euro o con
           meno di 30 anni.
         </p>
-        <div className="mt-8 flex gap-x-4 sm:justify-center">
+        <div className="mt-8 gap-x-4 sm:justify-center">
           <a
             href="#contact"
             className="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
