@@ -38,18 +38,23 @@ export default function AboutMe() {
                 Mi chiamo Francesco e sono nato il 27 settembre 1995 a Torino.
                 Dopo il liceo scientifico, ho conseguito prima una{" "}
                 <b>laurea triennale</b> in economia al percorso “Banca, Borsa e
-                Assicurazione” e successivamente una <b>laurea magistrale</b>, sempre
-                in economia, in “Finanza aziendale e mercati finanziari”. Prima
-                di intraprendere la professione di <b>consulente finanziario</b>, ho
-                lavorato presso una storica società di consulenza corporate come
-                analista finanziario e poi presso una multinazionale del settore
-                alimentare come analista di tesoreria. Da sempre <b>affascinato dal
-                mondo della finanza e dei mercati</b>, ho deciso di iniziare questa
-                professione preparandomi per il superamento della prova
-                valutativa per l’iscrizione all’albo dei consulenti finanziari,
-                al fine di poter offrire consulenza in materia di investimenti.
-                <b> L’albo è consultabile pubblicamente, e puoi verificare la mia
-                iscrizione nella delibera n. 1829</b>
+                Assicurazione” e successivamente una <b>laurea magistrale</b>,
+                sempre in economia, in “Finanza aziendale e mercati finanziari”.
+                Prima di intraprendere la professione di{" "}
+                <b>consulente finanziario</b>, ho lavorato presso una storica
+                società di consulenza corporate come analista finanziario e poi
+                presso una multinazionale del settore alimentare come analista
+                di tesoreria. Da sempre{" "}
+                <b>affascinato dal mondo della finanza e dei mercati</b>, ho
+                deciso di iniziare questa professione preparandomi per il
+                superamento della prova valutativa per l’iscrizione all’albo dei
+                consulenti finanziari, al fine di poter offrire consulenza in
+                materia di investimenti.
+                <b>
+                  {" "}
+                  L’albo è consultabile pubblicamente, e puoi verificare la mia
+                  iscrizione nella delibera n. 1829
+                </b>
               </p>
               {/* <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
@@ -67,6 +72,7 @@ export default function AboutMe() {
               </dl> */}
             </div>
           </div>
+
           {/* <img
             src="./img/francesco.jpeg"
             alt="Product screenshot"
@@ -75,8 +81,24 @@ export default function AboutMe() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./img/francesco.jpeg"
+            src="./img/francesco-about-me.jpeg"
           />
+        </div>
+        <div className="container  px-5 py-10 mx-auto mt-10">
+          <div className="text-center mb-3">
+            <h1 className="text-gray-600 title-font font-medium text-3xl sm:text-4xl mb-4">
+              La mia mission
+            </h1>
+            <p className="text-base text-gray-500 leading-relaxed mx-auto xl:w-2/4 lg:w-3/4">
+              Il mio <strong>obiettivo professionale</strong> è quello di{" "}
+              <strong>
+                aiutare i miei clienti nella gestione dei risparmi e degli
+                investimenti
+              </strong>
+              , supportandoli in tutte le fasi del processo di pianificazione
+              economico-finanziaria.
+            </p>
+          </div>
         </div>
       </div>
     </div>
