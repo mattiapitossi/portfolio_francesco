@@ -12,6 +12,7 @@
   }
   ```
 */
+import { SearchIcon } from "@heroicons/react/solid";
 import React, { useState } from "react";
 import cities from "./comuni.json";
 
@@ -39,7 +40,7 @@ export default function TallyEmbed() {
   return (
     <section id="analysis" className="bg-gray-100 py-12">
       <h2 className="text-3xl font-bold text-center mb-10">
-        {/* <BriefcaseIcon className="w-10 inline-block mb-4 text-gray-500" /> */}
+         <SearchIcon className="w-10 inline-block mb-4 text-gray-500" /> 
         <h1 className="text-gray-600 title-font font-medium text-3xl sm:text-4xl mb-4">
           Richiedi un'analisi gratuita dei tuoi investimenti
         </h1>
