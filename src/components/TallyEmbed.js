@@ -57,6 +57,7 @@ export default function TallyEmbed() {
                 <form
                   action="https://formsubmit.co/francesco.magagna@pfafineco.it"
                   method="POST"
+                  encType="multipart/form-data"
                 >
                   <div className="overflow-hidden shadow sm:rounded-md">
                     <div className="bg-white px-4 py-5 sm:p-6">
@@ -233,12 +234,13 @@ export default function TallyEmbed() {
                                   name="file-upload"
                                   type="file"
                                   className="sr-only"
+                                  accept="image/png, image/jpeg, application/pdf"
                                 />
                               </label>
                               <p className="pl-1">oppure drag and drop</p>
                             </div>
                             <p className="text-xs text-gray-500">
-                              PNG, JPG, GIF fino a 10MB
+                              PNG, JPG, PDF fino a 5MB
                             </p>
                           </div>
                         </div>
