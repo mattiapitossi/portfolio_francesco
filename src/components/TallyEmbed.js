@@ -44,10 +44,10 @@ export default function TallyEmbed() {
             <div className="md:grid md:grid-cols-3 md:gap-6">
               <div className="md:col-span-1">
                 <div className="px-4 sm:px-0">
-                  <h3 className="text-lg font-medium leading-6 text-gray-900">
+                  <h3 className="text-2xl font-medium leading-6 text-gray-900">
                     Informazioni personali
                   </h3>
-                  <p className="mt-1 text-sm text-gray-600">
+                  <p className="mt-1 text-gray-600">
                     Inserisci le informazioni che mi aiuteranno a capire meglio
                     le tue esigenze.
                   </p>
@@ -65,7 +65,7 @@ export default function TallyEmbed() {
                         <div className="col-span-6 sm:col-span-3">
                           <label
                             htmlFor="first-name"
-                            className="block text-sm font-medium text-gray-700"
+                            className="block font-medium text-gray-900 "
                           >
                             Nome
                           </label>
@@ -74,14 +74,14 @@ export default function TallyEmbed() {
                             name="first-name"
                             id="first-name"
                             autoComplete="given-name"
-                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                           />
                         </div>
 
                         <div className="col-span-6 sm:col-span-3">
                           <label
                             htmlFor="last-name"
-                            className="block text-sm font-medium text-gray-700"
+                            className="block font-medium text-gray-700"
                           >
                             Cognome
                           </label>
@@ -90,14 +90,14 @@ export default function TallyEmbed() {
                             name="last-name"
                             id="last-name"
                             autoComplete="family-name"
-                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                           />
                         </div>
 
                         <div className="col-span-6 sm:col-span-4">
                           <label
                             htmlFor="email-address"
-                            className="block text-sm font-medium text-gray-700"
+                            className="block font-medium text-gray-700"
                           >
                             Email
                           </label>
@@ -106,14 +106,14 @@ export default function TallyEmbed() {
                             name="email-address"
                             id="email-address"
                             autoComplete="email"
-                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                           />
                         </div>
 
                         <div className="col-span-6 sm:col-span-4">
                           <label
                             htmlFor="email-address"
-                            className="block text-sm font-medium text-gray-700"
+                            className="block font-medium text-gray-700"
                           >
                             Numero di telefono
                           </label>
@@ -122,7 +122,7 @@ export default function TallyEmbed() {
                             name="phone-number"
                             id="phone-number"
                             autoComplete="phone"
-                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                           />
                         </div>
 
@@ -149,7 +149,7 @@ export default function TallyEmbed() {
                         <div className="col-span-6">
                           <label
                             htmlFor="street-address"
-                            className="block text-sm font-medium text-gray-700"
+                            className="block font-medium text-gray-700"
                           >
                             Capitale investito
                           </label>
@@ -158,14 +158,14 @@ export default function TallyEmbed() {
                             name="street-address"
                             id="street-address"
                             autoComplete="street-address"
-                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                           />
                         </div>
 
                         <div className="col-span-6 sm:col-span-6 lg:col-span-2">
                           <label
                             htmlFor="city"
-                            className="block text-sm font-medium text-gray-700"
+                            className="block font-medium text-gray-700"
                           >
                             Città
                           </label>
@@ -174,7 +174,7 @@ export default function TallyEmbed() {
                             name="city"
                             id="city"
                             autoComplete="address-level2"
-                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                           />
                         </div>
                       </div>
@@ -184,7 +184,7 @@ export default function TallyEmbed() {
                       <div>
                         <label
                           htmlFor="about"
-                          className="block text-sm font-medium text-gray-700"
+                          className="block font-medium text-gray-700"
                         >
                           Strumenti nel portafoglio
                         </label>
@@ -193,7 +193,7 @@ export default function TallyEmbed() {
                             id="about"
                             name="about"
                             rows={3}
-                            className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                            className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                             placeholder="Nome degli strumenti nel portafoglio/codici ISIN (se hai bisogno di supporto in questa fase, contattami)"
                             defaultValue={""}
                           />
@@ -203,7 +203,7 @@ export default function TallyEmbed() {
                       <br />
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700">
+                        <label className="block font-medium text-gray-700">
                           Carica qui un file con la panoramica del tuo
                           portafoglio d'investimento
                         </label>
