@@ -18,12 +18,20 @@ import cities from "./comuni.json";
 const options = cities.map((city) => ({ value: city.nome, label: city.nome }));
 
 export default function TallyEmbed() {
-  const [selectedCity, setSelectedCity] = useState(null); // definisce lo stato per la città selezionata
+  const [file, setFile] = useState(null);
 
-  function handleChange(selectedOption) {
-    setSelectedCity(selectedOption);
-  }
+  const handleFileChange = (event) => {
+    setFile(event.target.files[0]);
+  };
 
+  const handleDrop = (event) => {
+    event.preventDefault();
+    setFile(event.dataTransfer.files[0]);
+  };
+
+  const handleDragOver = (event) => {
+    event.preventDefault();
+  };
   return (
     <section id="analysis" className="bg-gray-100 py-12">
       <h2 className="text-3xl font-bold text-center mb-10">
@@ -75,6 +83,7 @@ export default function TallyEmbed() {
                             id="first-name"
                             autoComplete="given-name"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            required
                           />
                         </div>
 
@@ -91,6 +100,7 @@ export default function TallyEmbed() {
                             id="last-name"
                             autoComplete="family-name"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            required
                           />
                         </div>
 
@@ -107,6 +117,7 @@ export default function TallyEmbed() {
                             id="email-address"
                             autoComplete="email"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            required
                           />
                         </div>
 
@@ -123,6 +134,7 @@ export default function TallyEmbed() {
                             id="phone-number"
                             autoComplete="phone"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            required
                           />
                         </div>
 
@@ -159,6 +171,7 @@ export default function TallyEmbed() {
                             id="street-address"
                             autoComplete="street-address"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            required
                           />
                         </div>
 
@@ -175,6 +188,7 @@ export default function TallyEmbed() {
                             id="city"
                             autoComplete="address-level2"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            required
                           />
                         </div>
                       </div>
@@ -207,7 +221,15 @@ export default function TallyEmbed() {
                           Carica qui un file con la panoramica del tuo
                           portafoglio d'investimento
                         </label>
-                        <div className="mt-1 flex justify-center rounded-md border-2 border-dashed border-gray-300 px-6 pt-5 pb-6">
+                        <div
+                          className="mt-1 flex justify-center rounded-md border-2 border-dashed border-gray-300 px-6 pt-5 pb-6"
+                          onDrop={handleDrop}
+                          onDragOver={handleDragOver}
+                        > {file ? (
+                            <div>
+                              <p>File caricato: {file.name}</p>
+                            </div>
+                          ) : (
                           <div className="space-y-1 text-center">
                             <svg
                               className="mx-auto h-12 w-12 text-gray-400"
@@ -235,6 +257,7 @@ export default function TallyEmbed() {
                                   type="file"
                                   className="sr-only"
                                   accept="image/png, image/jpeg, application/pdf"
+                                  onChange={handleFileChange}
                                 />
                               </label>
                               <p className="pl-1">oppure drag and drop</p>
@@ -243,6 +266,7 @@ export default function TallyEmbed() {
                               PNG, JPG, PDF fino a 5MB
                             </p>
                           </div>
+                          )}
                         </div>
                       </div>
                     </div>
