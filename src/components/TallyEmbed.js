@@ -57,7 +57,7 @@ export default function TallyEmbed() {
                 <form
                   action="https://formsubmit.co/francesco.magagna@pfafineco.it"
                   method="POST"
-                  encType="multipart/form-data"
+                  enctype="multipart/form-data"
                 >
                   <div className="overflow-hidden shadow sm:rounded-md">
                     <div className="bg-white px-4 py-5 sm:p-6">
