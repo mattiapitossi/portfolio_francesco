@@ -7,6 +7,7 @@ import WhyInvest from "./WhyInvest";
 import LinkedIn from "./LinkedIn";
 import Calendar from "./Calendar";
 import Contact from "./Contact";
+import TallyEmbed from "./TallyEmbed";
 
 const Main = () => {
   return (
@@ -17,7 +18,7 @@ const Main = () => {
         <OfferBlack />
         <Pensionv2 />
         <WhyInvest />
-        <LinkedIn />
+        <TallyEmbed />
         <Calendar />
         <Contact />
         <a
