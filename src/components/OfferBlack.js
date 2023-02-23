@@ -78,7 +78,7 @@ export default function OfferBlack() {
                   Chi vuole iniziare un percorso d'investimento con un capitale
                   minimo di 20.000€
                 </li>
-                <li>(NB: per gli under30 il conto è sempre a canone zero)</li>
+        
               </ul>
               <div className="text-center mt-6">
                 <p className="text-center mb-3 text-white font-bold">
@@ -119,7 +119,7 @@ export default function OfferBlack() {
                   Chi ha un portafoglio d'investimento con un capitale minimo di
                   100.000€
                 </li>
-                <li>(NB: per gli under30 il conto è sempre a canone zero)</li>
+             
               </ul>
               <div className="text-center mt-6">
                 <p className="text-center mb-3 text-white font-bold">
@@ -137,8 +137,12 @@ export default function OfferBlack() {
         </div>
       </div>
 
+      <p className="mt-3 text-lg leading-8 text-gray-600 sm:text-center">
+      NB: per gli under30 il conto è sempre a canone zero
+        </p>
+
       <div className="container mx-auto px-4 text-center">
-        <h1 className="text-gray-600 title-font font-medium text-center text-3xl tracking-tight sm:text-center sm:text-4xl mt-6">
+        <h1 className="text-gray-600 title-font font-medium text-center text-3xl tracking-tight sm:text-center sm:text-4xl mt-10">
           Trasferimento Titoli e Fondi
         </h1>
         <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
