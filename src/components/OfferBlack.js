@@ -134,12 +134,48 @@ export default function OfferBlack() {
               </div>
             </div>
           </div>
+
+          <div className="w-full px-4 mb-8">
+            <div
+              className="bg-gray-800 shadow-lg rounded-lg p-6"
+              style={{ width: "100%", height: "100%" }}
+            >
+              <div
+                className="bg-gray-800 shadow-lg rounded-lg p-6 half-color-before"
+                style={{ backgroundColor: "#00BD9D" }}
+              >
+                <h2 className="text-2xl font-bold text-center mb-1 mt-1 text-white">
+                NB: per gli under30 il conto è sempre a canone zero
+                </h2>
+              </div>
+              {/* <p className="text-center mb-3 text-white font-bold">
+                Pensato per:
+              </p>
+              <ul className="list-inside list-disc text-center text-white">
+                <li>
+                  Chi ha un portafoglio d'investimento con un capitale minimo di
+                  100.000€
+                </li>
+             
+              </ul>
+              <div className="text-center mt-6">
+                <p className="text-center mb-3 text-white font-bold">
+                  Servizi offerti:
+                </p>
+                <ul className="list-inside list-disc text-center text-white">
+                  <li>Tutti i servizi del piano Premium.</li>
+                  <li>Monitoraggio attivo del portafoglio.</li>
+                  <li>Ottimizzazione fiscale.</li>
+                  <li>Consulenza successoria.</li>
+                </ul>
+              </div> */}
+            </div>
+          </div>
         </div>
+
+     
       </div>
 
-      <p className="mt-3 text-lg leading-8 text-gray-600 sm:text-center">
-      NB: per gli under30 il conto è sempre a canone zero
-        </p>
 
       <div className="container mx-auto px-4 text-center">
         <h1 className="text-gray-600 title-font font-medium text-center text-3xl tracking-tight sm:text-center sm:text-4xl mt-10">
