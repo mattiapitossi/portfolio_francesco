@@ -264,7 +264,7 @@ export default function TallyEmbed() {
                                     name="file-upload"
                                     type="file"
                                     className="sr-only"
-                                    accept="image/png, image/jpeg, application/pdf"
+                                    accept="image/png, image/jpeg, application/pdf, .csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel "
                                     onChange={handleFileChange}
                                   />
                                 </label>
