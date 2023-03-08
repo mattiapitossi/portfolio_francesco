@@ -271,7 +271,7 @@ export default function TallyEmbed() {
                                 <p className="pl-1">oppure drag and drop</p>
                               </div>
                               <p className="text-xs text-gray-500">
-                                PNG, JPG, PDF fino a 5MB
+                                PNG, JPG, PDF, CSV fino a 5MB
                               </p>
                             </div>
                           )}
