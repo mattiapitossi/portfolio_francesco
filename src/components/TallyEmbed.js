@@ -81,7 +81,7 @@ export default function TallyEmbed() {
                           </label>
                           <input
                             type="text"
-                            name="first-name"
+                            name="nome"
                             id="first-name"
                             autoComplete="given-name"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -98,7 +98,7 @@ export default function TallyEmbed() {
                           </label>
                           <input
                             type="text"
-                            name="last-name"
+                            name="cognome"
                             id="last-name"
                             autoComplete="family-name"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -115,7 +115,7 @@ export default function TallyEmbed() {
                           </label>
                           <input
                             type="text"
-                            name="email-address"
+                            name="indirizzo email"
                             id="email-address"
                             autoComplete="email"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -132,7 +132,7 @@ export default function TallyEmbed() {
                           </label>
                           <input
                             type="phone"
-                            name="phone-number"
+                            name="numero di telefono"
                             id="phone-number"
                             autoComplete="phone"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -169,7 +169,7 @@ export default function TallyEmbed() {
                           </label>
                           <input
                             type="number"
-                            name="street-address"
+                            name="capitale investito"
                             id="street-address"
                             autoComplete="street-address"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -186,7 +186,7 @@ export default function TallyEmbed() {
                           </label>
                           <input
                             type="text"
-                            name="city"
+                            name="citta'"
                             id="city"
                             autoComplete="address-level2"
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
@@ -207,7 +207,7 @@ export default function TallyEmbed() {
                         <div className="mt-1">
                           <textarea
                             id="about"
-                            name="about"
+                            name="strumenti nel portafoglio e codici ISIN"
                             rows={3}
                             className="mt-1 block w-full rounded-md text-gray-900 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                             placeholder="Nome degli strumenti nel portafoglio/codici ISIN (se hai bisogno di supporto in questa fase, contattami)"
@@ -251,7 +251,7 @@ export default function TallyEmbed() {
                                 <span>Carica un file</span>
                                 <input
                                   id="file-upload"
-                                  name="file-upload"
+                                  name="file caricato"
                                   type="file"
                                   className="sr-only"
                                   accept="image/png, image/jpeg, application/pdf, .csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel "
