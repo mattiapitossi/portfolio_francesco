@@ -68,7 +68,7 @@ export default function TallyEmbed() {
               </div>
               <div className="mt-5 md:col-span-2 md:mt-0">
                 <form
-                  action="https://formsubmit.co/mattiapitossi@icloud.com"
+                  action="https://formsubmit.co/francesco.magagna@pfafineco.it"
                   method="POST"
                   enctype="multipart/form-data"
                 >
@@ -272,7 +272,7 @@ export default function TallyEmbed() {
 
                       <br />
 
-                        {/* <div>
+                      {/* <div>
                           <label className="block font-medium text-gray-700">
                             Carica qui un file con la panoramica del tuo
                             portafoglio d'investimento
