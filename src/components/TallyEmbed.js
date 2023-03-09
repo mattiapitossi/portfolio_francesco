@@ -19,24 +19,21 @@ import cities from "./comuni.json";
 const options = cities.map((city) => ({ value: city.nome, label: city.nome }));
 
 export default function TallyEmbed() {
-  const [file, setFile] = useState(null);
+
+  const [fileName, setFileName] = useState("");
 
   const handleFileChange = (event) => {
-    setFile(event.target.files[0]);
+    const file = event.target.files[0];
+    setFileName(file.name);
+    // handle the file upload logic here
   };
 
-  const handleDrop = (event) => {
-    event.preventDefault();
-    setFile(event.dataTransfer.files[0]);
-  };
 
   const handleDragOver = (event) => {
     event.preventDefault();
   };
 
-  function handleUndoClick() {
-    setFile(null);
-  }
+
   return (
     <section id="analysis" className="bg-gray-100 py-12">
       <h2 className="text-3xl font-bold text-center mb-10">
@@ -228,7 +225,7 @@ export default function TallyEmbed() {
                         </label>
                         <div
                           className="mt-1 flex justify-center rounded-md border-2 border-dashed border-gray-300 px-6 pt-5 pb-6"
-                          onDrop={handleDrop}
+              
                           onDragOver={handleDragOver}
                         >
                           <div className="space-y-1 text-center">
@@ -266,6 +263,7 @@ export default function TallyEmbed() {
                             <p className="text-xs text-gray-500">
                               PNG, JPG, PDF, CSV fino a 5MB
                             </p>
+                            {fileName && <p>{fileName}</p>}
                           </div>
                         </div>
                       </div>
